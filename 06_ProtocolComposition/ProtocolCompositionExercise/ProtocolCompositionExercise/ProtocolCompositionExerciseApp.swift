@@ -1,5 +1,4 @@
-//
-//  ProtocolCompositionExerciseApp.swift
+// ProtocolCompositionExerciseApp.swift
 //  ProtocolCompositionExercise
 //
 //  Created by Sinuar on 21/11/25.

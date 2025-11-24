@@ -1,9 +1,7 @@
-//
 //  View.swift
 //  ProtocolCompositionExercise
 //
 //  Created by Sinuar on 21/11/25.
-//
 
 import SwiftUI
 
@@ -24,8 +22,6 @@ struct ProfileView: View {
         if let status = viewModel.statusMessage {
             Text(status)
         }
-
-        
     }
 }
 
