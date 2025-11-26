@@ -11,7 +11,8 @@ import SwiftUI
 struct ToDoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let service = RealToDoService()
+            TodoListView(viewModel: ToDoListViewModel(service: service))
         }
     }
 }
